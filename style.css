@@ -5,16 +5,30 @@ body {
 
 .header {
             margin-top: 0;
+            
 }
 
-.header a         { color: black;}
-.footer a       {color: gray;}
+.header a   { color: black;}
+.footer a   {color: gray;}
 a:link    {  text-decoration:none}
 a:visited { text-decoration:none}
 a:hover   {  text-decoration:underline}
 a:active  {  text-decoration:underline}
 
+
+.avatar {
+            border-radius: 50%;
+}
+
+.nav-text {
+            color: rgb(64, 64, 64);
+            font-size: 13px;
+            line-height: 24px;
+}
+
 .header ul li {
+            font-family: arial, sans-serif;
+            
             list-style-type: none;
             float: right;
             margin: 0;
@@ -45,11 +59,23 @@ a:active  {  text-decoration:underline}
 
 
 .btn {
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: #757575;
+        text-align: center;
         width: 140px;
         height: 36px;
         padding: 5px;
         margin-top: 15px;
-        margin-right: 10px
+        margin-right: 10px;
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+}
+
+.btn:hover {
+            border-color: #999999
 }
 
 .footer {
